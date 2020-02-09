@@ -26,6 +26,19 @@
 		"oAP": "/style/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/style/styles.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/styles.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
 		}
 	},
 "hooks": [
