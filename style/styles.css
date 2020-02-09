@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700&display=swap");
+body { background-color: #252525; color: #fff; }
+
+header { height: 88px; padding: 16px 0; }
+
+header ul { display: -webkit-box; display: flex; -webkit-box-pack: end; justify-content: flex-end; list-style: none; margin: 0 auto; width: 888px; }
+
+header ul li a { color: #fff; font-family: 'Lato', sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 1.5px; padding: 16px; text-decoration: none; text-transform: uppercase; }
+
+header ul li:last-child a { background-color: orange; border-radius: 99px; margin-left: 16px; }
+
+#splash { height: calc(100vh - 88px); width: 100%; z-index: 0; }
+
+#splash .content { left: calc(50vw); width: 888px; position: fixed; top: calc(50vh); -webkit-transform: translate(-50%, -55%); transform: translate(-50%, -55%); }
+
+#splash .content .intro { -webkit-box-align: start; align-items: flex-start; display: -webkit-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; }
+
+#splash .content .intro h1 { font-family: 'Lora', serif; font-size: 108px; font-weight: 700; line-height: 108px; margin-bottom: 8px; }
+
+#splash .content .intro h2 { font-family: 'Lato', sans-serif; font-size: 28px; font-weight: 400; line-height: 28px; margin-bottom: 48px; }
+
+#splash .content .intro img { width: 24px; }
+
+#portfolio { background: #252525; display: block; width: 100%; z-index: 1; }
+
+#portfolio .img-grid { display: -webkit-box; display: flex; flex-wrap: wrap; margin: 0 auto; width: 888px; }
