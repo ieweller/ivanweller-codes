@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+html, body { width: 100%; margin: 0px; padding: 0px; overflow-x: hidden; }
+
 body { background-color: #282c34; color: #ffffff; margin: 0; }
 
-header { height: 88px; padding: 20px 0; position: fixed; top: 0; z-index: 99; }
+header { background-color: #282c34; padding: 20px 0; position: fixed; top: 0; width: 100%; z-index: 99; }
 
 header nav { margin: 0 auto; width: 888px; }
 
@@ -17,7 +19,7 @@ header nav ul li:last-child a { background-color: #56b6c2; border: 2px solid #56
 
 header nav ul li:last-child a:hover { background: rgba(0, 0, 0, 0); color: #56b6c2; }
 
-#splash { box-shadow: rgba(76, 83, 98, 0.5) 0 -16px 16px -16px inset; height: 100vh; width: 100%; }
+#splash { border-bottom: 2px solid #4b5364; height: 100vh; width: 100%; }
 
 #splash .content { left: calc(50vw); width: 888px; position: fixed; top: calc(50vh); -webkit-transform: translate(-50%, -55%); transform: translate(-50%, -55%); z-index: 0; }
 
@@ -47,10 +49,16 @@ header nav ul li:last-child a:hover { background: rgba(0, 0, 0, 0); color: #56b6
 
 #portfolio .img-grid { -webkit-box-pack: justify; justify-content: space-between; display: -webkit-box; display: flex; flex-wrap: wrap; margin: 0 auto; width: 888px; }
 
-#portfolio .img-grid .grid-thumb { -webkit-box-align: center; align-items: center; box-sizing: border-box; display: -webkit-box; display: flex; -webkit-box-pack: center; justify-content: center; overflow: hidden; padding: 12px; width: 50%; }
+#portfolio .img-grid .grid-thumb { -webkit-box-align: center; align-items: center; box-sizing: border-box; display: -webkit-box; display: flex; -webkit-box-pack: center; justify-content: center; overflow: hidden; padding: 12px; max-width: calc(50% - 8px); }
 
-#portfolio .img-grid .grid-thumb img { flex-shrink: 0; min-width: 100%; min-height: 100%; }
+#portfolio .img-grid .grid-thumb img { flex-shrink: 0; width: 100%; height: 100%; }
 
-footer { width: 100%; }
+footer { background-color: #282c34; display: -webkit-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-flow: column; padding: 16px; position: relative; width: 100vw; z-index: 1; }
 
-footer small { font-family: "Lato", sans-serif; text-align: center; }
+footer .footer-actions { display: -webkit-box; display: flex; -webkit-box-pack: center; justify-content: center; }
+
+footer .footer-actions .footer-orb { background-color: #56b6c2; border-radius: 99px; margin: 16px; padding: 16px; }
+
+footer .footer-actions .footer-orb i { font-size: 36px; }
+
+footer small { font-family: "Lato", sans-serif; padding: 16px; text-align: center; }
