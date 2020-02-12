@@ -21,11 +21,13 @@ header nav ul li:last-child a:hover { background: rgba(0, 0, 0, 0); color: #56b6
 
 #splash { border-bottom: 2px solid #4b5364; height: 100vh; width: 100%; }
 
-#splash .content { left: calc(50vw); width: 888px; position: fixed; top: calc(50vh); -webkit-transform: translate(-50%, -55%); transform: translate(-50%, -55%); z-index: 0; }
+#splash .content { box-sizing: border-box; left: calc(50vw); padding: 0 24px; position: fixed; top: calc(50vh); -webkit-transform: translate(-50%, -55%); transform: translate(-50%, -55%); width: 888px; z-index: 0; }
 
 #splash .content .intro { -webkit-box-align: start; align-items: flex-start; display: -webkit-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; }
 
-#splash .content .intro h1 { color: #d56871; font-family: "Source Code Pro", monospace; font-size: 108px; font-weight: 700; letter-spacing: -8px; line-height: 108px; margin-bottom: -8px; }
+#splash .content .intro h1 { color: #d56871; font-family: "Source Code Pro", monospace; font-size: 108px; font-weight: 700; line-height: 108px; margin-bottom: -8px; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { #splash .content .intro h1 { font-size: 72px; } }
 
 #splash .content .intro h1 span { color: #4b5364; font-size: 18px; font-weight: 400; letter-spacing: 0; margin-right: 24px; width: 100px; }
 
