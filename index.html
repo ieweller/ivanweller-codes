@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 
 <head>
+   <meta charset="UTF-8">
 
   <title>Ivan Weller - Coding Portfolio</title>
 
   <link rel="stylesheet" type="text/css" href="style/styles.css">
   <script src="https://kit.fontawesome.com/3ad2a23632.js" crossorigin="anonymous"></script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -35,24 +37,21 @@
       </div>
     </div>
     <div id="portfolio">
-      <div class="filters">
-        <ul>
-
-          <li><a href="#" class="selected">HTML</a></li>
-          <li><a href="#">CSS</a></li>
-          <li><a href="#">Javascript</a></li>
-          <li><a href="#">PHP</a></li>
-
-        </ul>
+      <div id="filters">
+        <button class="filter-btn selected" onclick="filterSelection('all')">All</button>
+        <button class="filter-btn" onclick="filterSelection('html')">HTML</button>
+        <button class="filter-btn" onclick="filterSelection('css')">CSS</button>
+        <button class="filter-btn" onclick="filterSelection('javascript')">JavaScript</button>
+        <button class="filter-btn" onclick="filterSelection('php')">PHP</button>
       </div>
       <div class="img-grid">
 
-        <div class="grid-thumb"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-        <div class="grid-thumb"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-        <div class="grid-thumb"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-        <div class="grid-thumb"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-        <div class="grid-thumb"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-        <div class="grid-thumb"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
+        <div class="grid-thumb html"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
+        <div class="grid-thumb css"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
+        <div class="grid-thumb javascript"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
+        <div class="grid-thumb php"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
+        <div class="grid-thumb html"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
+        <div class="grid-thumb css"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
 
       </div>
     </div>
@@ -68,6 +67,9 @@
     <small>Copyright &copy; 2020 &bull; Made by Ivan</small>
 
   </footer>
+
+  <script src="js/portfolio-grid-min.js"></script>
+
 </body>
 
 </html>

@@ -10,6 +10,15 @@ html, body {
   padding: 0px;
   max-width: 100%; }
 
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit; }
+
 body {
   background-color: #282c34;
   color: #ffffff;
@@ -172,43 +181,39 @@ header {
   position: relative;
   width: 100%;
   z-index: 1; }
-  #portfolio .filters {
-    display: block;
+  #portfolio #filters {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
     padding: 16px 0; }
-    #portfolio .filters ul {
-      display: -webkit-box;
-      display: flex;
-      -webkit-box-pack: center;
-              justify-content: center;
-      list-style: none;
-      padding: 0; }
-      #portfolio .filters ul li {
-        margin: 16px 12px; }
-        #portfolio .filters ul li a {
-          color: #fff;
-          font-family: "Lato", sans-serif;
-          font-size: 13.5px;
-          font-weight: 700;
-          letter-spacing: 1.5px;
-          text-decoration: none;
-          text-transform: uppercase;
-          -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out; }
-          @media only screen and (max-width: 480px) {
-            #portfolio .filters ul li a {
-              font-size: 11px;
-              margin: 8px; } }
-          @media only screen and (min-width: 376) and (max-width: 768) {
-            #portfolio .filters ul li a {
-              font-size: 13.5px; } }
-          #portfolio .filters ul li a:hover {
-            color: #d56871; }
-          #portfolio .filters ul li a.selected {
-            background-color: #56b6c2;
-            border-radius: 99px;
-            color: #282c34;
-            padding: 12px 16px;
-            margin: 0; }
+    #portfolio #filters .filter-btn {
+      padding: 0;
+      margin: 16px 12px;
+      color: #fff;
+      font-family: "Lato", sans-serif;
+      font-size: 13.5px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-decoration: none;
+      text-transform: uppercase;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+      @media only screen and (max-width: 480px) {
+        #portfolio #filters .filter-btn {
+          font-size: 11px;
+          margin: 8px; } }
+      @media only screen and (min-width: 376) and (max-width: 768) {
+        #portfolio #filters .filter-btn {
+          font-size: 13.5px; } }
+      #portfolio #filters .filter-btn:hover {
+        color: #d56871; }
+      #portfolio #filters .filter-btn.selected {
+        background-color: #56b6c2;
+        border-radius: 99px;
+        color: #282c34;
+        padding: 12px 16px;
+        margin: 0 8px; }
   #portfolio .img-grid {
     -webkit-box-pack: justify;
             justify-content: space-between;
@@ -218,12 +223,7 @@ header {
     margin: 0 auto;
     max-width: 960px; }
     #portfolio .img-grid .grid-thumb {
-      -webkit-box-align: center;
-              align-items: center;
-      display: -webkit-box;
-      display: flex;
-      -webkit-box-pack: center;
-              justify-content: center;
+      display: none;
       overflow: hidden;
       padding: 12px;
       max-width: calc(50% - 8px); }
@@ -237,6 +237,8 @@ header {
         flex-shrink: 0;
         width: 100%;
         height: 100%; }
+    #portfolio .img-grid .show {
+      display: block; }
 
 footer {
   background-color: #282c34;
