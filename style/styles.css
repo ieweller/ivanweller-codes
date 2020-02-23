@@ -24,6 +24,15 @@ body {
   color: #ffffff;
   margin: 0; }
 
+main {
+  overflow: scroll;
+  scroll-padding: 100px;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  height: 100vh; }
+  main div {
+    scroll-snap-align: start; }
+
 header {
   background-color: #282c34;
   padding: 24px 0;
