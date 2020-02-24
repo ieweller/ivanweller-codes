@@ -44,17 +44,6 @@ body {
   margin: 0;
 }
 
-main {
-  overflow: scroll;
-  scroll-padding: 100px;
-  scroll-snap-type: y mandatory;
-  height: 100vh;
-
-  div {
-    scroll-snap-align: start;
-  }
-}
-
 header {
   background-color: $background-color;
   padding: 24px 0;
@@ -135,7 +124,6 @@ header {
 #splash {
   border-bottom: 2px solid $accent-color;
   height: 100vh;
-  // scroll-snap-align: none;
   width: 100%;
 
   .content {
