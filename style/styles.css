@@ -5,10 +5,10 @@
   box-sizing: border-box; }
 
 html, body {
-  width: 100vw;
+  max-width: 100%;
   margin: 0px;
   padding: 0px;
-  max-width: 100%; }
+  width: 100vw; }
 
 button {
   background: none;
@@ -27,11 +27,7 @@ body {
 main {
   overflow: scroll;
   scroll-padding: 100px;
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
   height: 100vh; }
-  main div {
-    scroll-snap-align: start; }
 
 header {
   background-color: #282c34;
