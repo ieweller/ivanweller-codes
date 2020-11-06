@@ -1,5 +1,3 @@
-filterSelection("all")
-
 // Strip "show" class from all thumbnails, add to filtered thumbnails
 function filterSelection(filter) {
   var thumbArr = document.getElementsByClassName("portfolio-grid__thumbnail");

@@ -9,11 +9,66 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/beta/img/filtered-list-thumbnail.png": {
+		"ft": 32768,
+		"iS": 175821,
+		"oA": 0,
+		"oAP": "/beta/img/filtered-list-thumbnail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/beta/img/ip-tracker-thumbnail.png": {
+		"ft": 32768,
+		"iS": 1250617,
+		"oA": 0,
+		"oAP": "/beta/img/ip-tracker-thumbnail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/beta/img/landing-page-thumbnail.png": {
+		"ft": 32768,
+		"iS": 396998,
+		"oA": 0,
+		"oAP": "/beta/img/landing-page-thumbnail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/beta/img/pricing-componenent.png": {
+		"ft": 32768,
+		"iS": 167556,
+		"oA": 0,
+		"oAP": "/beta/img/pricing-componenent.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/beta/img/project-preview-thumb.png": {
 		"ft": 32768,
 		"iS": 45323,
 		"oA": 0,
 		"oAP": "/beta/img/project-preview-thumb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/beta/img/url-shortener-thumbnail.png": {
+		"ft": 32768,
+		"iS": 150299,
+		"oA": 0,
+		"oAP": "/beta/img/url-shortener-thumbnail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -28,6 +83,36 @@
 		"oAP": "/beta/index.html",
 		"oF": 0
 		},
+	"/beta/portfolio.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/beta/portfolio-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/beta/scripts/jquery.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/beta/scripts/jquery.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/beta/scripts/portfolio-grid-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/beta/scripts/portfolio-grid-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/beta/scripts/portfolio-grid.js": {
 		"bF": 0,
 		"ft": 64,
@@ -35,6 +120,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/beta/scripts/portfolio-grid-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/beta/scripts/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/beta/scripts/scripts-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -47,7 +143,7 @@
 		"oA": 0,
 		"oAP": "/beta/scripts/scripts-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/beta/styles/style.css": {
@@ -121,6 +217,28 @@
 		"oA": 0,
 		"oAP": "/my-story.html",
 		"oF": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/resume.html": {
 		"cB": 0,
