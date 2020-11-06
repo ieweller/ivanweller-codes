@@ -14,40 +14,46 @@
 <body>
 
   <header>
-    <ul class="nav">
+    <div class="wrapper">
+      <ul class="nav">
 
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">About Me</a></li>
-      <li class="highlight"><a href="#">My Resume</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About Me</a></li>
+        <li class="highlight"><a href="#">My Resume</a></li>
 
-    </ul>
+      </ul>
+    </div>
   </header>
 
   <div class="hero">
+    <div class="wrapper">
 
-    <div class="hero-content">
-      <span>129</span><h1>Hi, I'm Ivan.</h1>
-      <span>130</span><p>I'm a front-end web developer.</p>
-      <div class="scroll-btn"><a href="#portfolio" class="bounce"><i class="fas fa-angle-double-down bounce"></i></a></div>
+      <div class="hero-content">
+        <span>129</span><h1>Hi, I'm Ivan.</h1>
+        <span>130</span><p>I'm a front-end web developer.</p>
+        <div class="scroll-btn"><a href="#portfolio" class="bounce"><i class="fas fa-angle-double-down bounce"></i></a></div>
+      </div>
+
     </div>
-
   </div>
 
   <div id="portfolio" class="portfolio">
-    <div id="filter-bar">
+    <div class="wrapper">
+      <div class="filter-bar">
 
-      <button class="filter-btn selected" onclick="filterSelection('all')">All</button>
-      <button class="filter-btn" onclick="filterSelection('html')">HTML</button>
-      <button class="filter-btn" onclick="filterSelection('css')">CSS</button>
-      <button class="filter-btn" onclick="filterSelection('javascript')">JavaScript</button>
-      <button class="filter-btn" onclick="filterSelection('php')">PHP</button>
+        <button class="filter-btn selected" onclick="filterSelection('all')">All</button>
+        <button class="filter-btn" onclick="filterSelection('html')">HTML</button>
+        <button class="filter-btn" onclick="filterSelection('css')">CSS</button>
+        <button class="filter-btn" onclick="filterSelection('javascript')">JavaScript</button>
+        <button class="filter-btn" onclick="filterSelection('php')">PHP</button>
 
+      </div>
+      <div class="portfolio-grid"></div>
     </div>
-    <div class="portfolio-grid"></div>
   </div>
 
   <footer>
-    <div class="social-links">
+    <div class="social-links wrapper">
 
       <a href="https://www.linkedin.com/in/ivanweller/"><div class="social-btn"><i class="fab fa-linkedin"></i></div></a>
       <a href="mailto:ivan@ivanweller.codes"><div class="social-btn"><i class="fas fa-envelope"></i></div></a>
