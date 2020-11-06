@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #282c34;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  margin: 0; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: "Source Code Pro", monospace; }
+
+@keyframes bounce {
+  0%, 8%, 18%, 30%, 35% {
+    transform: translateY(0); }
+  15% {
+    transform: translateY(-14px); }
+  23% {
+    transform: translateY(-10px); } }
+
+.bounce {
+  animation-iteration-count: infinite;
+  animation-duration: 3s !important;
+  animation-name: bounce; }
+
+header {
+  height: 5.5rem;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  header .nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #282c34;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    margin: 0;
+    padding: 1rem 2rem;
+    height: 100%;
+    width: 100%;
+    list-style: none; }
+    header .nav li {
+      margin: 0 0.5rem; }
+      header .nav li a {
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 1.5rem;
+        padding: 1rem;
+        transition: all 0.2s ease-in-out; }
+        header .nav li a:hover {
+          color: #d56871; }
+      header .nav li.highlight a {
+        border: 2px solid #56b6c2;
+        background-color: #56b6c2;
+        color: #282c34;
+        font-weight: 700; }
+        header .nav li.highlight a:hover {
+          color: #56b6c2;
+          background-color: inherit; }
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 0 3.5rem;
+  height: 100vh; }
+  .hero .hero-content {
+    display: grid;
+    align-items: flex-end;
+    grid-template-columns: 3rem auto;
+    grid-template-rows: repeat(3, 3rem);
+    grid-column-gap: 2rem; }
+    .hero .hero-content span {
+      color: #4b5364;
+      font-family: "Source Code Pro", monospace;
+      text-align: right; }
+      .hero .hero-content span:first-child {
+        grid-area: 1 / 1 / 2 / 2; }
+      .hero .hero-content span:nth-child(3) {
+        grid-area: 2 / 1 / 3 / 2; }
+    .hero .hero-content h1 {
+      grid-area: 1 / 2 / 2 / 3;
+      color: #d56871;
+      font-size: 5rem;
+      margin: 0; }
+    .hero .hero-content p {
+      grid-area: 2 / 2 / 3 / 3;
+      color: #8eb673;
+      font-family: "Source Code Pro", monospace;
+      font-size: 2rem;
+      margin: 0; }
+    .hero .hero-content .scroll-btn {
+      grid-area: 3 / 2 / 4 / 3;
+      margin-bottom: -2.5rem; }
+      .hero .hero-content .scroll-btn a {
+        color: #56b6c2;
+        font-size: 32px;
+        transform-origin: center bottom;
+        transition: 0.2s ease-in-out; }
+        .hero .hero-content .scroll-btn a:hover {
+          color: #4b5364; }
+
+footer {
+  height: 5.5rem;
+  width: 100%;
+  bottom: 0; }

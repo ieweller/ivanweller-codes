@@ -28,6 +28,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/beta/styles/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/beta/styles/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/beta/styles/style.scss": {
 		"aP": 0,
 		"bl": 0,

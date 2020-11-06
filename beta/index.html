@@ -3,29 +3,37 @@
 <head>
 
   <title>Ivan Weller - Coding Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://kit.fontawesome.com/3ad2a23632.js" crossorigin="anonymous"></script>
+
 
 </head>
 
 <body>
 
   <header>
-    <ul>
+    <ul class="nav">
 
       <li><a href="#">Portfolio</a></li>
       <li><a href="#">About Me</a></li>
-      <li><a href="#">My Resume</a></li>
+      <li class="highlight"><a href="#">My Resume</a></li>
 
     </ul>
   </header>
 
   <div class="hero">
 
-    <span>129</span><h1>Hi, I'm Ivan.</h1>
-    <span>130</span><p>I'm a front-end web developer.</p>
+    <div class="hero-content">
+      <span>129</span><h1>Hi, I'm Ivan.</h1>
+      <span>130</span><p>I'm a front-end web developer.</p>
+      <div class="scroll-btn"><a href="#portfolio" class="bounce"><i class="fas fa-angle-double-down bounce"></i></a></div>
+    </div>
 
   </div>
 
-  <div class="portfolio">
+  <div id="portfolio" class="portfolio">
     <div id="filter-bar">
 
       <button class="filter-btn selected" onclick="filterSelection('all')">All</button>
