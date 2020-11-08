@@ -17,7 +17,7 @@
     "id": 3,
     "name": "URL Shortener",
     "thumbnail": "url-shortener-thumbnail.png",
-    "link": "https://filtered-list.vercel.app/",
+    "link": "https://url-shortening-api-zeta.now.sh/",
     "tags": ["html", "css", "javascript"]
   },
   {
