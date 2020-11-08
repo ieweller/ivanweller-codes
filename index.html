@@ -1,75 +1,73 @@
 <!DOCTYPE html>
 
 <head>
-   <meta charset="UTF-8">
 
   <title>Ivan Weller - Coding Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
 
-  <link rel="stylesheet" type="text/css" href="style/styles.css">
+  <link rel="stylesheet" href="styles/style.css">
   <script src="https://kit.fontawesome.com/3ad2a23632.js" crossorigin="anonymous"></script>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <body>
-<header>
-  <nav>
-    <ul>
 
-      <li><a href="index.html#portfolio">Portfolio</a></li>
-      <li><a href="my-story.html">About Me</a></li>
-      <li><a target="_blank" href="resume.html">My Resume</a></li>
+  <header>
+    <div class="wrapper">
+      <ul class="nav">
 
-    </ul>
-  </nav>
-</header>
-<main>
-  <div id="splash">
-    <div class="content">
-      <div class="intro">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="about-me.html">About Me</a></li>
+        <li class="highlight"><a href="resume.html">My Resume</a></li>
 
-        <h1><span>129</span>Hi, I'm Ivan.</h1>
-        <h2><span>130</span>I'm a front-end web developer.</h2>
-        <a href="#portfolio"><i class="fas fa-angle-double-down bounce"></i></a>
+      </ul>
+    </div>
+  </header>
 
+  <div class="hero">
+    <div class="wrapper">
+
+      <div class="hero-content">
+        <span>129</span><h1>Hi, I'm Ivan.</h1>
+        <span>130</span><p>I'm a front-end web developer.</p>
+        <div class="scroll-btn"><a href="#portfolio" class="bounce"><i class="fas fa-angle-double-down bounce"></i></a></div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="portfolio" class="portfolio">
+    <div class="wrapper">
+      <div id="filter-bar">
+
+        <button class="filter-btn selected" onclick="filterSelection('all')">All</button>
+        <button class="filter-btn" onclick="filterSelection('html')">HTML</button>
+        <button class="filter-btn" onclick="filterSelection('css')">CSS</button>
+        <button class="filter-btn" onclick="filterSelection('javascript')">JavaScript</button>
+
+      </div>
+      <div class="portfolio-grid">
       </div>
     </div>
   </div>
-  <div id="portfolio">
-    <div id="filters">
-      <button class="filter-btn selected" onclick="filterSelection('all')">All</button>
-      <button class="filter-btn" onclick="filterSelection('html')">HTML</button>
-      <button class="filter-btn" onclick="filterSelection('css')">CSS</button>
-      <button class="filter-btn" onclick="filterSelection('javascript')">JavaScript</button>
-      <button class="filter-btn" onclick="filterSelection('php')">PHP</button>
-    </div>
-    <div class="img-grid">
 
-      <div class="grid-thumb html"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-      <div class="grid-thumb css"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-      <div class="grid-thumb javascript"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-      <div class="grid-thumb php"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-      <div class="grid-thumb html"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-      <div class="grid-thumb css"><img src="img/project-preview-thumb.png" alt="placeholder"></div>
-
-    </div>
-  </div>
   <footer>
-    <div class="footer-actions">
+    <div class="social-links">
 
-      <a href="https://www.linkedin.com/in/ivanweller/"><div class="footer-orb"><i class="fab fa-linkedin"></i></div></a>
-      <a href="mailto:ivan@ivanweller.codes"><div class="footer-orb"><i class="fas fa-envelope"></i></div></a>
+      <a href="https://www.linkedin.com/in/ivanweller/" target="_blank"><div class="social-btn"><i class="fab fa-linkedin"></i></div></a>
+      <a href="mailto:ivan@ivanweller.codes"><div class="social-btn"><i class="fas fa-envelope"></i></div></a>
 
     </div>
 
     <small>Copyright &copy; 2020 &bull; Made by Ivan</small>
 
   </footer>
-</main>
 
-<script src="js/portfolio-grid-min.js"></script>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/scripts.js"></script>
+  <script src="scripts/portfolio-grid-min.js"></script>
 
 </body>
-
 </html>

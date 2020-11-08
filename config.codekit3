@@ -9,171 +9,74 @@
 	],
 "creatorBuild": "31934",
 "files": {
-	"/beta/img/filtered-list-thumbnail.png": {
+	"/img/filtered-list-thumbnail.png": {
 		"ft": 32768,
 		"iS": 175821,
 		"oA": 0,
-		"oAP": "/beta/img/filtered-list-thumbnail.png",
+		"oAP": "/img/filtered-list-thumbnail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/beta/img/ip-tracker-thumbnail.png": {
+	"/img/ip-tracker-thumbnail.png": {
 		"ft": 32768,
 		"iS": 1250617,
 		"oA": 0,
-		"oAP": "/beta/img/ip-tracker-thumbnail.png",
+		"oAP": "/img/ip-tracker-thumbnail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/beta/img/landing-page-thumbnail.png": {
-		"ft": 32768,
-		"iS": 396998,
-		"oA": 0,
-		"oAP": "/beta/img/landing-page-thumbnail.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/beta/img/pricing-componenent.png": {
-		"ft": 32768,
-		"iS": 167556,
-		"oA": 0,
-		"oAP": "/beta/img/pricing-componenent.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/beta/img/project-preview-thumb.png": {
-		"ft": 32768,
-		"iS": 45323,
-		"oA": 0,
-		"oAP": "/beta/img/project-preview-thumb.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/beta/img/url-shortener-thumbnail.png": {
-		"ft": 32768,
-		"iS": 150299,
-		"oA": 0,
-		"oAP": "/beta/img/url-shortener-thumbnail.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/beta/index.html": {
+	"/img/ivan-weller-resume.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/beta/index.html",
+		"oAP": "/img/ivan-weller-resume.pdf",
 		"oF": 0
 		},
-	"/beta/portfolio.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/beta/portfolio-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/beta/scripts/jquery.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
+	"/img/landing-page-thumbnail.png": {
+		"ft": 32768,
+		"iS": 396998,
 		"oA": 0,
-		"oAP": "/beta/scripts/jquery.min-min.js",
+		"oAP": "/img/landing-page-thumbnail.png",
 		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
-	"/beta/scripts/portfolio-grid-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
+	"/img/pricing-componenent.png": {
+		"ft": 32768,
+		"iS": 167556,
 		"oA": 0,
-		"oAP": "/beta/scripts/portfolio-grid-min-min.js",
+		"oAP": "/img/pricing-componenent.png",
 		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/beta/scripts/portfolio-grid.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/beta/scripts/portfolio-grid-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/beta/scripts/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/beta/scripts/scripts-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/beta/scripts/scripts.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/beta/scripts/scripts-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/beta/styles/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/beta/styles/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/beta/styles/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/beta/styles/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/img/project-preview-thumb.png": {
 		"ft": 32768,
 		"iS": 45323,
 		"oA": 0,
 		"oAP": "/img/project-preview-thumb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/url-shortener-thumbnail.png": {
+		"ft": 32768,
+		"iS": 150299,
+		"oA": 0,
+		"oAP": "/img/url-shortener-thumbnail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -187,28 +90,6 @@
 		"oA": 0,
 		"oAP": "/index.html",
 		"oF": 0
-		},
-	"/js/portfolio-grid-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/portfolio-grid-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/portfolio-grid.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/portfolio-grid-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/my-story.html": {
 		"cB": 0,
@@ -240,6 +121,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/portfolio.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/portfolio-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/resume.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -248,48 +137,80 @@
 		"oAP": "/resume.html",
 		"oF": 0
 		},
-	"/style/no-scrollover.css": {
+	"/scripts/jquery.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/scripts/jquery.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/scripts/portfolio-grid-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/scripts/portfolio-grid-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/scripts/portfolio-grid.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/scripts/portfolio-grid-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/scripts/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/scripts/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/scripts/scripts.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/scripts/scripts-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/styles/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/style/no-scrollover-min.css",
+		"oAP": "/styles/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/style/no-scrollover.scss": {
-		"aP": 1,
+	"/styles/style.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/style/no-scrollover.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/style/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/style/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/style/styles.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/style/styles.css",
+		"oAP": "/styles/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
