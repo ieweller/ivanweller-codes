@@ -21,6 +21,7 @@ body {
   height: 100%; }
 
 header {
+  background-color: #282c34;
   height: 5.5rem;
   width: 100%;
   position: fixed;
@@ -30,7 +31,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: #282c34;
     color: #ffffff;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -43,6 +43,9 @@ header {
     list-style: none; }
     header .nav li {
       margin: 0 0.5rem; }
+      @media screen and (max-width: 768px) {
+        header .nav li {
+          display: none; } }
       header .nav li a {
         color: #ffffff;
         text-decoration: none;
@@ -50,15 +53,19 @@ header {
         padding: 1rem;
         transition: all 0.2s ease-in-out; }
         header .nav li a:hover {
-          color: #d56871; }
+          color: #56b6c2; }
       header .nav li.highlight a {
-        border: 2px solid #56b6c2;
-        background-color: #56b6c2;
-        color: #282c34;
+        border: 2px solid #ffffff;
+        background-color: inherit;
         font-weight: 700; }
         header .nav li.highlight a:hover {
-          color: #56b6c2;
-          background-color: inherit; }
+          color: #282c34;
+          background-color: #ffffff; }
+        header .nav li.highlight a:active {
+          color: #4b5364; }
+      @media screen and (max-width: 768px) {
+        header .nav li.highlight {
+          display: inherit; } }
 
 .hero {
   height: 100vh; }
@@ -70,7 +77,7 @@ header {
     display: grid;
     align-items: flex-end;
     grid-template-columns: 3rem auto;
-    grid-template-rows: repeat(3, 3rem);
+    grid-template-rows: repeat(3, auto);
     grid-column-gap: 2rem; }
     .hero .hero-content span {
       color: #4b5364;
@@ -188,7 +195,7 @@ footer {
 
 iframe {
   border: none;
-  height: calc(100vh - 5remr);
+  max-height: calc(100vh - 5rem);
   width: 100%;
   padding: 6rem 15% 0 15%; }
 
