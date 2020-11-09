@@ -47,6 +47,17 @@
 		"oAP": "/img/ivan-weller-resume.pdf",
 		"oF": 0
 		},
+	"/img/ivan.png": {
+		"ft": 32768,
+		"iS": 38817,
+		"oA": 0,
+		"oAP": "/img/ivan.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/landing-page-thumbnail.png": {
 		"ft": 32768,
 		"iS": 396998,
