@@ -47,11 +47,11 @@ header {
     height: 100%;
     width: 100%;
     list-style: none; }
+    @media screen and (max-width: 460px) {
+      header .nav {
+        justify-content: space-between; } }
     header .nav li {
       margin: 0 0.5rem; }
-      @media screen and (max-width: 460px) {
-        header .nav li {
-          display: none; } }
       header .nav li a {
         color: #ffffff;
         text-decoration: none;
@@ -60,6 +60,8 @@ header {
         transition: all 0.2s ease-in-out; }
         header .nav li a:hover {
           color: #56b6c2; }
+        header .nav li a img {
+          height: 3rem; }
       header .nav li.highlight a {
         border: 2px solid #ffffff;
         background-color: inherit;
@@ -69,9 +71,6 @@ header {
           background-color: #ffffff; }
         header .nav li.highlight a:active {
           color: #4b5364; }
-      @media screen and (max-width: 460px) {
-        header .nav li.highlight {
-          display: inherit; } }
 
 .hero {
   position: fixed;
@@ -246,6 +245,7 @@ footer {
 
 iframe {
   border: none;
+  height: 100%;
   max-height: calc(100vh - 5rem);
   width: 100%;
   padding: 6rem 15% 0 15%; }
