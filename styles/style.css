@@ -243,12 +243,12 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0.5px; }
 
-iframe {
-  border: none;
-  height: 100%;
-  max-height: calc(100vh - 5rem);
-  width: 100%;
-  padding: 6rem 15% 0 15%; }
+.resume {
+  padding-top: 6rem; }
+  .resume object {
+    border: none;
+    height: calc(100vh - 14.5rem);
+    width: 100%; }
 
 @keyframes bounce {
   0%, 8%, 18%, 30%, 35% {
