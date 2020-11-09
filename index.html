@@ -37,17 +37,18 @@
 
     </div>
   </div>
+  <div class="gap-retainer"></div>
 
   <div id="portfolio" class="portfolio">
+    <div id="filter-bar">
+
+      <button class="filter-btn selected" onclick="filterSelection('all')">All</button>
+      <button class="filter-btn" onclick="filterSelection('html')">HTML</button>
+      <button class="filter-btn" onclick="filterSelection('css')">CSS</button>
+      <button class="filter-btn" onclick="filterSelection('javascript')">JavaScript</button>
+
+    </div>
     <div class="wrapper">
-      <div id="filter-bar">
-
-        <button class="filter-btn selected" onclick="filterSelection('all')">All</button>
-        <button class="filter-btn" onclick="filterSelection('html')">HTML</button>
-        <button class="filter-btn" onclick="filterSelection('css')">CSS</button>
-        <button class="filter-btn" onclick="filterSelection('javascript')">JavaScript</button>
-
-      </div>
       <div class="portfolio-grid">
       </div>
     </div>
