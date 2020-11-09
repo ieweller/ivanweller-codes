@@ -117,6 +117,9 @@ header {
       font-family: "Source Code Pro", monospace;
       font-size: 2rem;
       margin: 0; }
+      @media screen and (max-width: 768px) {
+        .hero .hero-content p {
+          font-size: 1.5rem; } }
     .hero .hero-content .scroll-btn {
       grid-area: 3 / 2 / 4 / 3;
       position: relative;
