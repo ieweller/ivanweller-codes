@@ -3,11 +3,13 @@
 * {
   box-sizing: border-box; }
 
+html {
+  font-size: 16px; }
+
 body {
   background-color: #282c34;
   color: #ffffff;
   font-family: "Lato", sans-serif;
-  font-size: 18px;
   margin: 0;
   min-height: 100vh; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
@@ -22,7 +24,6 @@ body {
 
 header {
   background-color: #282c34;
-  height: 5.5rem;
   width: 100%;
   position: fixed;
   top: 0;
@@ -37,13 +38,13 @@ header {
     letter-spacing: 1px;
     white-space: nowrap;
     margin: 0;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     height: 100%;
     width: 100%;
     list-style: none; }
     header .nav li {
       margin: 0 0.5rem; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 460px) {
         header .nav li {
           display: none; } }
       header .nav li a {
@@ -63,7 +64,7 @@ header {
           background-color: #ffffff; }
         header .nav li.highlight a:active {
           color: #4b5364; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 460px) {
         header .nav li.highlight {
           display: inherit; } }
 
@@ -73,12 +74,17 @@ header {
     display: flex;
     align-items: center;
     padding: 0 3.5rem; }
+    @media screen and (max-width: 460px) {
+      .hero .wrapper {
+        padding: 0 1.5rem; } }
   .hero .hero-content {
     display: grid;
     align-items: flex-end;
     grid-template-columns: 3rem auto;
     grid-template-rows: repeat(3, auto);
-    grid-column-gap: 2rem; }
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    line-height: 1; }
     .hero .hero-content span {
       color: #4b5364;
       font-family: "Source Code Pro", monospace;
@@ -107,7 +113,7 @@ header {
         transform-origin: center bottom;
         transition: 0.2s ease-in-out; }
         .hero .hero-content .scroll-btn a:hover {
-          color: #4b5364; }
+          color: #ffffff; }
 
 .portfolio {
   margin: 0;
