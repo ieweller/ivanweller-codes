@@ -73,8 +73,8 @@ header {
           height: 3rem;
           transition: 0.2s ease-in-out; }
           header .nav li a img:hover {
-            scale: 1.05;
-            box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25); }
+            scale: 1.1;
+            box-shadow: 0.15rem 0.15rem 0.5rem rgba(0, 0, 0, 0.25); }
         header .nav li a svg {
           fill: #ffffff;
           height: 1rem;
@@ -85,7 +85,9 @@ header {
         font-weight: 700; }
         header .nav li.highlight a:hover {
           color: #282c34;
-          background-color: #ffffff; }
+          background-color: #ffffff;
+          scale: 1.03;
+          box-shadow: 0.15rem 0.15rem 0.5rem rgba(0, 0, 0, 0.5); }
         header .nav li.highlight a:active {
           color: #4b5364; }
 
@@ -186,19 +188,17 @@ header {
       transition: 0.2s ease-in-out; }
       @media (hover: hover) {
         .portfolio #filter-bar .filter-btn:hover {
-          color: #d56871;
+          background-color: #4b5364;
+          border-color: #4b5364;
           cursor: pointer; } }
-      .portfolio #filter-bar .filter-btn:hover {
-        color: #d56871;
-        cursor: pointer; }
       .portfolio #filter-bar .filter-btn.selected {
-        background-color: #ffffff;
-        color: #282c34;
-        border: 2px solid #ffffff; }
+        border-color: #ffffff;
+        color: #ffffff; }
         @media (hover: hover) {
           .portfolio #filter-bar .filter-btn.selected:hover {
-            background-color: inherit;
-            color: #ffffff; } }
+            background-color: #ffffff;
+            border-color: #ffffff;
+            color: #282c34; } }
   .portfolio .wrapper {
     padding-top: 1.5rem; }
   .portfolio .portfolio-grid {
@@ -213,15 +213,17 @@ header {
         grid-template-columns: 100%;
         max-width: 24rem; } }
     .portfolio .portfolio-grid__thumbnail {
+      border-radius: 0.6rem;
       display: none;
       margin: 0 auto;
+      overflow: hidden;
       transition: 0.5s ease-in-out; }
       .portfolio .portfolio-grid__thumbnail:hover {
         cursor: pointer;
-        scale: 1.025;
-        box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.4); }
+        box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.4); }
       .portfolio .portfolio-grid__thumbnail img {
-        width: 100%; }
+        width: 100%;
+        display: block; }
   .portfolio .show {
     display: block; }
 
@@ -239,9 +241,6 @@ footer {
     footer .social-links a {
       color: #ffffff;
       transition: 0.2s all ease-in-out; }
-      footer .social-links a:hover {
-        cursor: pointer;
-        color: #282c34; }
     footer .social-links .social-btn {
       background-color: inherit;
       border: 2px solid #ffffff;
@@ -251,7 +250,11 @@ footer {
       margin: 0 1rem;
       transition: 0.2s all ease-in-out; }
       footer .social-links .social-btn:hover {
-        background-color: #ffffff; }
+        cursor: pointer;
+        color: #282c34;
+        background-color: #ffffff;
+        scale: 1.1;
+        box-shadow: 0.15rem 0.15rem 0.5rem rgba(0, 0, 0, 0.5); }
       footer .social-links .social-btn i {
         font-size: 2rem;
         line-height: 3.75rem; }
@@ -259,14 +262,6 @@ footer {
     padding: 1rem 0;
     text-transform: uppercase;
     letter-spacing: 0.5px; }
-
-.resume {
-  padding-top: 6rem; }
-  .resume object {
-    background-color: #ffffff;
-    border: none;
-    height: calc(100vh - 14.5rem);
-    width: 100%; }
 
 @keyframes bounce {
   0%, 8%, 18%, 30%, 35% {
