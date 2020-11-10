@@ -55,6 +55,8 @@ header {
         justify-content: space-between; } }
     header .nav li {
       margin: 0 0.5rem; }
+      header .nav li.container {
+        perspective: 800px; }
       header .nav li a {
         color: #ffffff;
         text-decoration: none;
@@ -63,18 +65,35 @@ header {
         grid-gap: 0.5rem;
         border-radius: 1.5rem;
         padding: 1rem;
-        transition: 0.2s ease-in-out; }
+        min-height: 3.25rem;
+        min-width: 3.25rem;
+        transition: scale 0.2s ease-in-out;
+        transition: transform 1s;
+        transform-style: preserve-3d; }
+        header .nav li a.card {
+          transform-style: preserve-3d;
+          position: relative;
+          padding: 0; }
+        header .nav li a img {
+          display: block;
+          border-radius: 99rem;
+          height: 3rem;
+          transition: 0.2s ease-in-out;
+          backface-visibility: hidden;
+          position: absolute;
+          width: 100%;
+          height: 100%; }
+          header .nav li a img:hover {
+            scale: 1.1;
+            box-shadow: 0.15rem 0.15rem 0.5rem rgba(0, 0, 0, 0.25); }
+        header .nav li a .back {
+          transform: rotateY(180deg); }
+        header .nav li a.flipped {
+          transform: rotateY(180deg); }
         header .nav li a:hover {
           color: #56b6c2; }
           header .nav li a:hover svg {
             fill: #282c34; }
-        header .nav li a img {
-          border-radius: 99rem;
-          height: 3rem;
-          transition: 0.2s ease-in-out; }
-          header .nav li a img:hover {
-            scale: 1.1;
-            box-shadow: 0.15rem 0.15rem 0.5rem rgba(0, 0, 0, 0.25); }
         header .nav li a svg {
           fill: #ffffff;
           height: 1rem;
@@ -123,7 +142,7 @@ header {
         grid-area: 2 / 1 / 3 / 2; }
     #hero .hero-content h1 {
       grid-area: 1 / 2 / 2 / 3;
-      color: #d56871;
+      color: #8eb673;
       font-size: 5rem;
       margin: 0; }
       @media screen and (max-width: 768px) {
@@ -131,7 +150,7 @@ header {
           font-size: 3rem; } }
     #hero .hero-content p {
       grid-area: 2 / 2 / 3 / 3;
-      color: #8eb673;
+      color: #56b6c2;
       font-family: "Source Code Pro", monospace;
       font-size: 2rem;
       margin: 0; }
@@ -143,7 +162,7 @@ header {
       position: relative;
       top: 0.5rem; }
       #hero .hero-content .scroll-btn a {
-        color: #56b6c2;
+        color: #d56871;
         font-size: 32px;
         transform-origin: center bottom;
         transition: 0.2s ease-in-out; }

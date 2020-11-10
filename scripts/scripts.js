@@ -1,7 +1,3 @@
-// $('.js-tilt').tilt({
-//   maxTilt: 8,
-// });
-
 $(function() {
   $.ajax({
     type : 'GET',
@@ -17,11 +13,11 @@ $(function() {
   });
 });
 
-
 // Toggles what's being displayed in the hero area
 function showDetail() {
   $('.hero-content').toggleClass("hide");
   $('.about-me').toggleClass("hide");
+  $('.card').toggleClass('flipped');
 }
 
 function createList(listArray) {
