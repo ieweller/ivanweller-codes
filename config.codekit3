@@ -17,6 +17,16 @@
 		"oAP": "/about-me.html",
 		"oF": 0
 		},
+	"/img/download-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/download-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/filtered-list-thumbnail.png": {
 		"ft": 32768,
 		"iS": 175821,

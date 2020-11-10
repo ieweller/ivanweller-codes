@@ -33,3 +33,8 @@ function createList(listArray) {
   // Adds table generated from JSON objects to DOM
   $('.portfolio-grid').html(buffer);
 }
+
+function showDetail() {
+  $('.hero-content').toggleClass("hide");
+  $('.about-me').toggleClass("hide");
+}

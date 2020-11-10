@@ -25,6 +25,9 @@ body {
   max-width: 960px;
   height: 100%; }
 
+.hide {
+  display: none !important; }
+
 header {
   background-color: #282c34;
   width: 100%;
@@ -55,13 +58,27 @@ header {
       header .nav li a {
         color: #ffffff;
         text-decoration: none;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 0.5rem;
         border-radius: 1.5rem;
         padding: 1rem;
-        transition: all 0.2s ease-in-out; }
+        transition: 0.2s ease-in-out; }
         header .nav li a:hover {
           color: #56b6c2; }
+          header .nav li a:hover svg {
+            fill: #282c34; }
         header .nav li a img {
-          height: 3rem; }
+          border-radius: 99rem;
+          height: 3rem;
+          transition: 0.2s ease-in-out; }
+          header .nav li a img:hover {
+            scale: 1.05;
+            box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25); }
+        header .nav li a svg {
+          fill: #ffffff;
+          height: 1rem;
+          transition: 0.2s ease-in-out; }
       header .nav li.highlight a {
         border: 2px solid #ffffff;
         background-color: inherit;
@@ -72,20 +89,20 @@ header {
         header .nav li.highlight a:active {
           color: #4b5364; }
 
-.hero {
+#hero {
   position: fixed;
   top: 0;
   height: 100vh;
   width: 100vw;
   z-index: 0; }
-  .hero .wrapper {
+  #hero .wrapper {
     display: flex;
     align-items: center;
     padding: 0 3.5rem; }
     @media screen and (max-width: 460px) {
-      .hero .wrapper {
+      #hero .wrapper {
         padding: 0 1.5rem; } }
-  .hero .hero-content {
+  #hero .hero-content {
     display: grid;
     align-items: flex-end;
     grid-template-columns: 3rem auto;
@@ -94,41 +111,41 @@ header {
     grid-row-gap: 2rem;
     position: relative;
     line-height: 1; }
-    .hero .hero-content span {
+    #hero .hero-content span {
       color: #4b5364;
       font-family: "Source Code Pro", monospace;
       text-align: right; }
-      .hero .hero-content span:first-child {
+      #hero .hero-content span:first-child {
         grid-area: 1 / 1 / 2 / 2; }
-      .hero .hero-content span:nth-child(3) {
+      #hero .hero-content span:nth-child(3) {
         grid-area: 2 / 1 / 3 / 2; }
-    .hero .hero-content h1 {
+    #hero .hero-content h1 {
       grid-area: 1 / 2 / 2 / 3;
       color: #d56871;
       font-size: 5rem;
       margin: 0; }
       @media screen and (max-width: 768px) {
-        .hero .hero-content h1 {
+        #hero .hero-content h1 {
           font-size: 3rem; } }
-    .hero .hero-content p {
+    #hero .hero-content p {
       grid-area: 2 / 2 / 3 / 3;
       color: #8eb673;
       font-family: "Source Code Pro", monospace;
       font-size: 2rem;
       margin: 0; }
       @media screen and (max-width: 768px) {
-        .hero .hero-content p {
+        #hero .hero-content p {
           font-size: 1.5rem; } }
-    .hero .hero-content .scroll-btn {
+    #hero .hero-content .scroll-btn {
       grid-area: 3 / 2 / 4 / 3;
       position: relative;
       top: 0.5rem; }
-      .hero .hero-content .scroll-btn a {
+      #hero .hero-content .scroll-btn a {
         color: #56b6c2;
         font-size: 32px;
         transform-origin: center bottom;
         transition: 0.2s ease-in-out; }
-        .hero .hero-content .scroll-btn a:hover {
+        #hero .hero-content .scroll-btn a:hover {
           color: #ffffff; }
 
 .gap-retainer {
@@ -246,6 +263,7 @@ footer {
 .resume {
   padding-top: 6rem; }
   .resume object {
+    background-color: #ffffff;
     border: none;
     height: calc(100vh - 14.5rem);
     width: 100%; }
