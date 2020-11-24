@@ -38,9 +38,20 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/favicon-dark-32x32.png": {
+		"ft": 32768,
+		"iS": 1311,
+		"oA": 0,
+		"oAP": "/img/favicon-dark-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/filtered-list-thumbnail.png": {
 		"ft": 32768,
-		"iS": 175821,
+		"iS": 93017,
 		"oA": 0,
 		"oAP": "/img/filtered-list-thumbnail.png",
 		"oF": 0,
