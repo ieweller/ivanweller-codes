@@ -1,4 +1,5 @@
 $(function() {
+
   $.ajax({
     type : 'GET',
     url : './portfolio.json',
@@ -8,7 +9,9 @@ $(function() {
     success : function(result) {
       createList(result);
       filterSelection("all");
-      $.getScript("scripts/tilt.jquery.min.js");
+      if(!Modernizr.touch) {
+        $.getScript("scripts/tilt.jquery.min.js");
+      };
     }
   });
 });

@@ -8,7 +8,6 @@ html {
   @media screen and (max-width: 460px) {
     html {
       font-size: 14px; } }
-
 body {
   background-color: #282c34;
   color: #ffffff;
@@ -235,11 +234,11 @@ header {
       border-radius: 0.6rem;
       display: none;
       margin: 0 auto;
-      overflow: hidden;
-      transition: 0.5s ease-in-out; }
-      .portfolio .portfolio-grid__thumbnail:hover {
-        cursor: pointer;
-        box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.4); }
+      overflow: hidden; }
+      @media (hover: hover) {
+        .portfolio .portfolio-grid__thumbnail:hover {
+          cursor: pointer;
+          box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.4); } }
       .portfolio .portfolio-grid__thumbnail img {
         width: 100%;
         display: block; }
