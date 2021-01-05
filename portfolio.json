@@ -1,34 +1,41 @@
 [
   {
     "id": 1,
+    "name": "Easybank Landing Page",
+    "thumbnail": "easybank-thumbnail.png",
+    "link": "https://easybank-landing-page-virid.vercel.app/",
+    "tags": ["html", "css", "javascript"]
+  },
+  {
+    "id": 2,
     "name": "URL Shortener",
     "thumbnail": "url-shortener-thumbnail.png",
     "link": "https://url-shortening-api-zeta.now.sh/",
     "tags": ["html", "css", "javascript"]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "IP Tracker",
     "thumbnail": "ip-tracker-thumbnail.png",
     "link": "https://ip-tracker-kappa.vercel.app/",
     "tags": ["html", "css", "javascript"]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Landing Page",
     "thumbnail": "landing-page-thumbnail.png",
     "link": "https://fylo-dark-landing-page.now.sh/",
     "tags": ["html", "css"]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Filtered List",
     "thumbnail": "filtered-list-thumbnail.png",
     "link": "https://filtered-list.vercel.app/",
     "tags": ["html", "css", "javascript"]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Landing Component",
     "thumbnail": "pricing-componenent.png",
     "link": "https://pricing-component-w-toggle.now.sh/",
