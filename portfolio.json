@@ -29,13 +29,20 @@
   },
   {
     "id": 5,
+    "name": "Accordian Card",
+    "thumbnail": "accordian-card.png",
+    "link": "https://faq-accordion-card-eta-two.vercel.app/",
+    "tags": ["html", "css", "javascript"]
+  },
+  {
+    "id": 6,
     "name": "IP Tracker",
     "thumbnail": "ip-tracker-thumbnail.png",
     "link": "https://ip-tracker-kappa.vercel.app/",
     "tags": ["html", "css", "javascript"]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Pricing Component",
     "thumbnail": "pricing-componenent.png",
     "link": "https://pricing-component-w-toggle.now.sh/",
