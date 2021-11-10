@@ -104,13 +104,17 @@
 
     </div>
 
-    <small>Copyright &copy; 2020 &bull; Made by Ivan</small>
+    <small>Copyright &copy; <span id="currentYear"> </span> &bull; Made by Ivan</small>
 
   </footer>
 
   <script src="scripts/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="scripts/scripts-min.js"></script>
+
+  <script>
+    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+  </script>
 
 </body>
 </html>
