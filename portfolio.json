@@ -4,49 +4,49 @@
     "name": "Easybank Landing Page",
     "thumbnail": "easybank-thumbnail.png",
     "link": "https://easybank-landing-page-virid.vercel.app/",
-    "tags": ["html", "css", "javascript"]
+    "tags": ["html", "css", "webpage"]
   },
   {
     "id": 2,
     "name": "Landing Page",
     "thumbnail": "landing-page-thumbnail.png",
     "link": "https://fylo-dark-landing-page.now.sh/",
-    "tags": ["html", "css"]
+    "tags": ["html", "css", "webpage"]
   },
   {
     "id": 3,
     "name": "URL Shortener",
     "thumbnail": "url-shortener-thumbnail.png",
     "link": "https://url-shortening-api-zeta.now.sh/",
-    "tags": ["html", "css", "javascript"]
+    "tags": ["html", "css", "javascript", "api", "utility"]
   },
   {
     "id": 4,
     "name": "Filtered List",
     "thumbnail": "filtered-list-thumbnail.png",
     "link": "https://filtered-list.vercel.app/",
-    "tags": ["html", "css", "javascript"]
+    "tags": ["html", "css", "javascript", "utility", "widget"]
   },
   {
     "id": 5,
     "name": "Accordian Card",
     "thumbnail": "accordian-card.png",
     "link": "https://faq-accordion-card-eta-two.vercel.app/",
-    "tags": ["html", "css", "javascript"]
+    "tags": ["html", "css", "javascript", "widget"]
   },
   {
     "id": 6,
     "name": "IP Tracker",
     "thumbnail": "ip-tracker-thumbnail.png",
     "link": "https://ip-tracker-kappa.vercel.app/",
-    "tags": ["html", "css", "javascript"]
+    "tags": ["html", "css", "javascript", "api", "utility"]
   },
   {
     "id": 7,
     "name": "Pricing Component",
     "thumbnail": "pricing-componenent.png",
     "link": "https://pricing-component-w-toggle.now.sh/",
-    "tags": ["html", "css", "javascript"]
+    "tags": ["html", "css", "javascript", "widget"]
   }
 
 
