@@ -1,33 +1,33 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en-us">
 <head>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>Ivan Weller - Coding Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
-  <meta charset="UTF-8">
+  
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-dark-32x32.png">
-
   <link rel="stylesheet" href="styles/style.css">
-  <script src="https://kit.fontawesome.com/3ad2a23632.js" crossorigin="anonymous"></script>
-
+  <script src="https://kit.fontawesome.com/3ad2a23632.js" crossorigin="anonymous" async></script>
+  <script src="scripts/jquery.min.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" async></script>
+  <script src="scripts/scripts-min.js" defer></script>
+  <script>
+    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8P2WSL1NLM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-8P2WSL1NLM');
   </script>
-
 </head>
-
 <body>
-
   <header>
     <div class="wrapper">
       <ul class="nav">
-
         <li class="container">
           <!-- <a class="card" href="#" onclick="showDetail()"> -->
           <a class="card" href="#">
@@ -35,8 +35,8 @@
             <img class="back" src="img/code.png" alt="">
           </a>
         </li>
-
         <li class="highlight">
+        
           <a href="img/ivan-weller-resume.pdf" target="_blank">My Resume
             <svg version="1.1" x="0px" y="0px"
             	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;">
@@ -57,65 +57,54 @@
             				c11.782,0,21.333-9.551,21.333-21.333S417.115,469.333,405.333,469.333z"/>
             </svg>
           </a>
+          
         </li>
-
       </ul>
     </div>
   </header>
-
   <div id="hero">
     <div class="wrapper">
-
       <div class="hero-content show">
+      
         <span>129</span><h1>Hi, I'm Ivan.</h1>
         <span>130</span><p>I'm a front-end web developer.</p>
+        
         <div class="scroll-btn"><a href="#portfolio" class="bounce"><i class="fas fa-angle-double-down bounce"></i></a></div>
       </div>
-
       <!-- <div class="about-me hide">
         <h1>I design and develop for the web.</h1>
         <p>My background is in photography and graphic design, and I brought those skills with me when I began web development in 2015.</p>
       </div> -->
-
     </div>
   </div>
   <div class="gap-retainer"></div>
-
   <div id="portfolio" class="portfolio">
+  
     <div id="filter-bar">
-
       <button class="filter-btn selected" onclick="filterSelection('all')">All</button>
       <button class="filter-btn" onclick="filterSelection('css')">CSS</button>
       <button class="filter-btn" onclick="filterSelection('javascript')">Javascript</button>
       <button class="filter-btn" onclick="filterSelection('utility')">Utility</button>
       <button class="filter-btn" onclick="filterSelection('api')">API</button>
-
     </div>
+    
     <div class="wrapper">
       <div class="portfolio-grid">
       </div>
     </div>
   </div>
-
   <footer>
     <div class="social-links">
-
-      <a href="https://www.linkedin.com/in/ivanweller/" target="_blank"><div class="social-btn"><i class="fab fa-linkedin"></i></div></a>
+      <a href="https://www.linkedin.com/in/ivanweller/" target="_blank">
+        <div class="social-btn">
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </a>
       <a href="mailto:ivan@ivanweller.codes"><div class="social-btn"><i class="fas fa-envelope"></i></div></a>
-
     </div>
-
-    <small>Copyright &copy; <span id="currentYear">1990</span> &bull; Made by Ivan</small>
+    
+    <small>Copyright © <span id="currentYear">1990</span>• Made by Ivan</small>
 
   </footer>
-
-  <script src="scripts/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-  <script src="scripts/scripts-min.js"></script>
-
-  <script>
-    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
-  </script>
-
 </body>
 </html>
