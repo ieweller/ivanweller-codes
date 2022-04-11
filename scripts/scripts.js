@@ -1,3 +1,6 @@
+// Sets footer copyright date to current year
+document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+
 $(function() {
 
   $.ajax({
